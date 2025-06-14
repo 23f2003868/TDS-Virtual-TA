@@ -21,13 +21,13 @@ It preprocesses raw content into vector embeddings, stores them in a SQLite data
 
 ## 📂 Folder Structure
 .
-├── app.py # FastAPI app (LLM query interface)
-├── discourse_scrap.py
-├── tds_scrap.py
-├── knowledge_base.db
-├── requirements.txt
-├── LICENSE 
-└── README.md 
+├── app.py                 # FastAPI app (LLM query interface)
+├── discourse_scrap.py     # Script to scrape Discourse forum content
+├── tds_scrap.py           # Script to scrape TDS course markdown pages
+├── knowledge_base.db      # SQLite database storing chunked embeddings
+├── requirements.txt       # Python dependencies
+├── LICENSE                # MIT License
+└── README.md              # Project documentation
 
 ---
 
