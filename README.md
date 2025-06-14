@@ -20,6 +20,7 @@ It preprocesses raw content into vector embeddings, stores them in a SQLite data
 ---
 
 ## 📂 Folder Structure
+```bash
 .
 ├── app.py                 # FastAPI app (LLM query interface)
 ├── discourse_scrap.py     # Script to scrape Discourse forum content
@@ -28,7 +29,7 @@ It preprocesses raw content into vector embeddings, stores them in a SQLite data
 ├── requirements.txt       # Python dependencies
 ├── LICENSE                # MIT License
 └── README.md              # Project documentation
-
+```
 ---
 
 
